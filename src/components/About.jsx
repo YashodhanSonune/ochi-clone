@@ -1,8 +1,9 @@
+import { motion } from 'framer-motion'
 import React from 'react'
 
 function About() {
   return (
-    <div className='w-full p-20 bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl text-black'>
+    <div data-scroll data-scroll-section data-scroll-speed="-.3" className='w-full p-20 bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl text-black'>
         <h1 className="font-['Neue_Montreal'] text-[2vw] leading-[2.5vw] tracking-tight">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dicta tempore rerum, repellendus esse beatae. Sapiente iure doloribus accusamus molestiae quae ab, nesciunt enim odit harum neque a dolores. Voluptatum?
         </h1>
